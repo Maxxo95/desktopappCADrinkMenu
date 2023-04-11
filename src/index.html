@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <div id="topStable">
+            <img class="logo" src="/assets/icon.jfif" alt="logo">
+            <h1>Brewery</h1>
+            <div class="dropdown">
+                <div class="cover">
+                    <p class="covername">Menu</p>
+                    <div class='caret'></div>
+                </div>
+                <div class="menu">
+                    <button class="button" onclick="togglePopup1()">LogIn</button>
+                    <div id="popup">
+                        <div id="popup-content">
+                            <div class='xbutt'>
+                                <button class='xbutt' onclick="togglePopup()">X</button>
+                            </div>
+                            <h2>For support contact</h2>
+                            <p>manager@brewery.com</p>
+                            <p>technicalsupport@cctwebdevelop<p>
+                            <p>083 312 46 66<p>
+                        </div>
+                    </div>
+                    <div id='loginpop'>
+                        <div id='login-pop-content'>
+                            <div class='xbutt'>
+                                <button class='xbutt' onclick="togglePopup1()">X</button>
+                            </div>
+                            <div class="login-top">
+                                <h2>Login</h2>
+                            </div>
+                            <div class="login-body">
+                                <p>
+                                    <label>username</label>
+                                    <input class="logininput" type="text">
+                                </p>
+                                <p>
+                                    <label>password</label>
+                                    <input class="logininput" type="text" id="pass">
+                                </p>
+                                <button>conect</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button" onclick="togglePopup()">Support</button>
+                    <button class="button">Edit Menu</button>
+                </div>
+            </div>
+        </div>
+        <div id="introd">
+            <h2>Cocktail recipes</h2>
+            <p>Click on the cocktails to show the ingredients & instructions to prepare it</p>
+        </div>
+        <div id="content">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

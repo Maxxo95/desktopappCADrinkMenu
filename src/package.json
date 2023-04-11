@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "Brewery",
+    "width": 1300,
+    "height": 1000,
+    "man_width": 1300,
+    "max_height": 1000,
+    "min_width": 1300,
+    "min_height": 1000,
+    "toolbar": true ,
+    "positionw .n": "mouse"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

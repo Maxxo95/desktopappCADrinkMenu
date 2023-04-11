@@ -1,0 +1,22 @@
+{
+  "name": "desktopapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win64 --winIco src/assets/icon.jfif --buildDir dist/ ."
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.75.0",
+    "nw-builder": "^4.2.1"
+  },
+
+  "config": {
+    "srcDir": "C:\\Users\\maxim\\Documents\\desktopapp\\src"
+  }
+}

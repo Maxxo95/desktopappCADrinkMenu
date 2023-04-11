@@ -1,0 +1,15 @@
+{
+  "buildDir": "dist",
+  "nwVersion": "0.75.0",
+  "files": [
+    "./src/**/*",
+    "./package.json" // add this line to include package.json in the build
+  ],
+  "platforms": [
+    "win32",
+    "win64",
+    "osx64"
+  ]
+}
+
+
